@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HWActionToolView.h"
+#import "HWUMLListView.h"
 
-@interface HWToolListView : UIView
+@interface HWToolListView : UIView {
+    HWActionToolView *toolView;
+}
 
 @end

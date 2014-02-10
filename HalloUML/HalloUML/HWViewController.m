@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    HWToolListView *vToolList = [[HWToolListView alloc] initWithFrame:CGRectMake(0, 0, 200, self.view.bounds.size.height)];
+    HWToolListView *vToolList = [[HWToolListView alloc] initWithFrame:CGRectMake(0, 0, 160, self.view.bounds.size.height)];
     vToolList.backgroundColor = [UIColor greenColor];
     [self.view addSubview:vToolList];
 }

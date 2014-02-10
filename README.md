@@ -1,4 +1,4 @@
 HalloUML
 ========
 
-Hallo UML Tool
+Hallo UML Tool for iPad!

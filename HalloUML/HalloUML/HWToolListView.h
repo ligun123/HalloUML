@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HWToolListView : UIScrollView
+@interface HWToolListView : UIView
 
 @end

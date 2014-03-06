@@ -7,7 +7,6 @@
 //
 
 #import "HWViewController.h"
-#import "HWToolListView.h"
 
 @interface HWViewController ()
 
@@ -19,9 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    HWToolListView *vToolList = [[HWToolListView alloc] initWithFrame:CGRectMake(0, 0, 160, self.view.bounds.size.height)];
-    vToolList.backgroundColor = [UIColor greenColor];
-    [self.view addSubview:vToolList];
+    self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
 }
 
 - (void)didReceiveMemoryWarning

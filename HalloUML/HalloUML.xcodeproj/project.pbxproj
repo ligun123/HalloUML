@@ -24,6 +24,15 @@
 		2384C69918A78BBB00A89B6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2384C67818A78BBB00A89B6F /* UIKit.framework */; };
 		2384C6A118A78BBB00A89B6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2384C69F18A78BBB00A89B6F /* InfoPlist.strings */; };
 		2384C6A318A78BBB00A89B6F /* HalloUMLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2384C6A218A78BBB00A89B6F /* HalloUMLTests.m */; };
+		23AEF37E18C8B33900D15B9A /* HWObjcTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AEF37D18C8B33900D15B9A /* HWObjcTableViewController.m */; };
+		23AEF38118C8C2E500D15B9A /* expandableImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 23AEF37F18C8C2E500D15B9A /* expandableImage.png */; };
+		23AEF38218C8C2E500D15B9A /* expandableImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23AEF38018C8C2E500D15B9A /* expandableImage@2x.png */; };
+		23AEF38518C8C40200D15B9A /* UMLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AEF38418C8C40200D15B9A /* UMLObject.m */; };
+		23AEF38918C8C69E00D15B9A /* UMLLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AEF38818C8C69E00D15B9A /* UMLLine.m */; };
+		23AEF38C18C8C6B100D15B9A /* UMLBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AEF38B18C8C6B100D15B9A /* UMLBox.m */; };
+		23B7F34718BE13E4004A149F /* bar_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B7F34418BE13E4004A149F /* bar_left.png */; };
+		23B7F34818BE13E4004A149F /* bar_middle.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B7F34518BE13E4004A149F /* bar_middle.png */; };
+		23B7F34918BE13E4004A149F /* bar_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B7F34618BE13E4004A149F /* bar_right.png */; };
 		23CA17BD18A8FA300036D8E3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CA17BC18A8FA300036D8E3 /* QuartzCore.framework */; };
 		23CA17C018A8FA8A0036D8E3 /* HWActionToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CA17BF18A8FA8A0036D8E3 /* HWActionToolView.m */; };
 		23CA17C318A8FBB00036D8E3 /* HWUMLListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CA17C218A8FBB00036D8E3 /* HWUMLListView.m */; };
@@ -39,18 +48,6 @@
 		23CA17DB18A8FCF20036D8E3 /* fmdb.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CA17CF18A8FCF20036D8E3 /* fmdb.m */; };
 		23CA17DC18A8FCF20036D8E3 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CA17D118A8FCF20036D8E3 /* FMResultSet.m */; };
 		23CA17DD18A8FCF20036D8E3 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CA17D118A8FCF20036D8E3 /* FMResultSet.m */; };
-		23CA17E018A8FDE60036D8E3 /* HWUMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CA17DF18A8FDE60036D8E3 /* HWUMLElement.m */; };
-		23CA17E118A8FDE60036D8E3 /* HWUMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CA17DF18A8FDE60036D8E3 /* HWUMLElement.m */; };
-		23CA17EC18A8FF620036D8E3 /* expandableImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CA17E418A8FF620036D8E3 /* expandableImage.png */; };
-		23CA17ED18A8FF620036D8E3 /* expandableImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CA17E418A8FF620036D8E3 /* expandableImage.png */; };
-		23CA17EE18A8FF620036D8E3 /* expandableImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CA17E518A8FF620036D8E3 /* expandableImage@2x.png */; };
-		23CA17EF18A8FF620036D8E3 /* expandableImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CA17E518A8FF620036D8E3 /* expandableImage@2x.png */; };
-		23CA17F818A907A30036D8E3 /* HWExpandHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CA17F718A907A30036D8E3 /* HWExpandHeaderView.m */; };
-		23CA17F918A907A30036D8E3 /* HWExpandHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CA17F718A907A30036D8E3 /* HWExpandHeaderView.m */; };
-		23CA17FE18A90E970036D8E3 /* expandableImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CA17FA18A90E970036D8E3 /* expandableImage.png */; };
-		23CA17FF18A90E970036D8E3 /* expandableImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CA17FA18A90E970036D8E3 /* expandableImage.png */; };
-		23CA180018A90E970036D8E3 /* expandableImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CA17FB18A90E970036D8E3 /* expandableImage@2x.png */; };
-		23CA180118A90E970036D8E3 /* expandableImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CA17FB18A90E970036D8E3 /* expandableImage@2x.png */; };
 		23CA180218A90E970036D8E3 /* HWExpandHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CA17FD18A90E970036D8E3 /* HWExpandHeaderView.m */; };
 		23CA180318A90E970036D8E3 /* HWExpandHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CA17FD18A90E970036D8E3 /* HWExpandHeaderView.m */; };
 /* End PBXBuildFile section */
@@ -88,6 +85,19 @@
 		2384C69E18A78BBB00A89B6F /* HalloUMLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HalloUMLTests-Info.plist"; sourceTree = "<group>"; };
 		2384C6A018A78BBB00A89B6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2384C6A218A78BBB00A89B6F /* HalloUMLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HalloUMLTests.m; sourceTree = "<group>"; };
+		23AEF37C18C8B33900D15B9A /* HWObjcTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWObjcTableViewController.h; sourceTree = "<group>"; };
+		23AEF37D18C8B33900D15B9A /* HWObjcTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWObjcTableViewController.m; sourceTree = "<group>"; };
+		23AEF37F18C8C2E500D15B9A /* expandableImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = expandableImage.png; sourceTree = "<group>"; };
+		23AEF38018C8C2E500D15B9A /* expandableImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "expandableImage@2x.png"; sourceTree = "<group>"; };
+		23AEF38318C8C40200D15B9A /* UMLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMLObject.h; sourceTree = "<group>"; };
+		23AEF38418C8C40200D15B9A /* UMLObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMLObject.m; sourceTree = "<group>"; };
+		23AEF38718C8C69E00D15B9A /* UMLLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMLLine.h; sourceTree = "<group>"; };
+		23AEF38818C8C69E00D15B9A /* UMLLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMLLine.m; sourceTree = "<group>"; };
+		23AEF38A18C8C6B100D15B9A /* UMLBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMLBox.h; sourceTree = "<group>"; };
+		23AEF38B18C8C6B100D15B9A /* UMLBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMLBox.m; sourceTree = "<group>"; };
+		23B7F34418BE13E4004A149F /* bar_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar_left.png; sourceTree = "<group>"; };
+		23B7F34518BE13E4004A149F /* bar_middle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar_middle.png; sourceTree = "<group>"; };
+		23B7F34618BE13E4004A149F /* bar_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar_right.png; sourceTree = "<group>"; };
 		23CA17BC18A8FA300036D8E3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		23CA17BE18A8FA8A0036D8E3 /* HWActionToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWActionToolView.h; sourceTree = "<group>"; };
 		23CA17BF18A8FA8A0036D8E3 /* HWActionToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWActionToolView.m; sourceTree = "<group>"; };
@@ -105,14 +115,6 @@
 		23CA17CF18A8FCF20036D8E3 /* fmdb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fmdb.m; sourceTree = "<group>"; };
 		23CA17D018A8FCF20036D8E3 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
 		23CA17D118A8FCF20036D8E3 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
-		23CA17DE18A8FDE60036D8E3 /* HWUMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWUMLElement.h; sourceTree = "<group>"; };
-		23CA17DF18A8FDE60036D8E3 /* HWUMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWUMLElement.m; sourceTree = "<group>"; };
-		23CA17E418A8FF620036D8E3 /* expandableImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = expandableImage.png; sourceTree = "<group>"; };
-		23CA17E518A8FF620036D8E3 /* expandableImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "expandableImage@2x.png"; sourceTree = "<group>"; };
-		23CA17F618A907A30036D8E3 /* HWExpandHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWExpandHeaderView.h; sourceTree = "<group>"; };
-		23CA17F718A907A30036D8E3 /* HWExpandHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWExpandHeaderView.m; sourceTree = "<group>"; };
-		23CA17FA18A90E970036D8E3 /* expandableImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = expandableImage.png; sourceTree = "<group>"; };
-		23CA17FB18A90E970036D8E3 /* expandableImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "expandableImage@2x.png"; sourceTree = "<group>"; };
 		23CA17FC18A90E970036D8E3 /* HWExpandHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWExpandHeaderView.h; sourceTree = "<group>"; };
 		23CA17FD18A90E970036D8E3 /* HWExpandHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWExpandHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -178,27 +180,20 @@
 		2384C67A18A78BBB00A89B6F /* HalloUML */ = {
 			isa = PBXGroup;
 			children = (
+				23B7F34318BE13E4004A149F /* PNG */,
 				2384C68318A78BBB00A89B6F /* HWAppDelegate.h */,
 				2384C68418A78BBB00A89B6F /* HWAppDelegate.m */,
 				2384C68618A78BBB00A89B6F /* Main_iPhone.storyboard */,
 				2384C68918A78BBB00A89B6F /* Main_iPad.storyboard */,
 				2384C68C18A78BBB00A89B6F /* HWViewController.h */,
 				2384C68D18A78BBB00A89B6F /* HWViewController.m */,
+				23AEF37C18C8B33900D15B9A /* HWObjcTableViewController.h */,
+				23AEF37D18C8B33900D15B9A /* HWObjcTableViewController.m */,
+				23AEF38618C8C58100D15B9A /* Model */,
 				2384C68F18A78BBB00A89B6F /* Images.xcassets */,
-				2332070118A7A40000ACED75 /* HWToolListView.h */,
-				2332070218A7A40000ACED75 /* HWToolListView.m */,
-				23CA17BE18A8FA8A0036D8E3 /* HWActionToolView.h */,
-				23CA17BF18A8FA8A0036D8E3 /* HWActionToolView.m */,
-				23CA17C118A8FBB00036D8E3 /* HWUMLListView.h */,
-				23CA17C218A8FBB00036D8E3 /* HWUMLListView.m */,
-				23CA17FA18A90E970036D8E3 /* expandableImage.png */,
-				23CA17FB18A90E970036D8E3 /* expandableImage@2x.png */,
-				23CA17FC18A90E970036D8E3 /* HWExpandHeaderView.h */,
-				23CA17FD18A90E970036D8E3 /* HWExpandHeaderView.m */,
-				23CA17E318A8FF620036D8E3 /* SKSTableView */,
+				23B7F34218BE01C0004A149F /* OldTool */,
 				2384C67B18A78BBB00A89B6F /* Supporting Files */,
 				23CA17C618A8FCF20036D8E3 /* FMDB */,
-				23CA17E218A8FDEA0036D8E3 /* UMLElement */,
 			);
 			path = HalloUML;
 			sourceTree = "<group>";
@@ -232,6 +227,46 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		23AEF38618C8C58100D15B9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				23AEF38318C8C40200D15B9A /* UMLObject.h */,
+				23AEF38418C8C40200D15B9A /* UMLObject.m */,
+				23AEF38718C8C69E00D15B9A /* UMLLine.h */,
+				23AEF38818C8C69E00D15B9A /* UMLLine.m */,
+				23AEF38A18C8C6B100D15B9A /* UMLBox.h */,
+				23AEF38B18C8C6B100D15B9A /* UMLBox.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		23B7F34218BE01C0004A149F /* OldTool */ = {
+			isa = PBXGroup;
+			children = (
+				2332070118A7A40000ACED75 /* HWToolListView.h */,
+				2332070218A7A40000ACED75 /* HWToolListView.m */,
+				23CA17BE18A8FA8A0036D8E3 /* HWActionToolView.h */,
+				23CA17BF18A8FA8A0036D8E3 /* HWActionToolView.m */,
+				23CA17C118A8FBB00036D8E3 /* HWUMLListView.h */,
+				23CA17C218A8FBB00036D8E3 /* HWUMLListView.m */,
+				23CA17FC18A90E970036D8E3 /* HWExpandHeaderView.h */,
+				23CA17FD18A90E970036D8E3 /* HWExpandHeaderView.m */,
+			);
+			name = OldTool;
+			sourceTree = "<group>";
+		};
+		23B7F34318BE13E4004A149F /* PNG */ = {
+			isa = PBXGroup;
+			children = (
+				23AEF37F18C8C2E500D15B9A /* expandableImage.png */,
+				23AEF38018C8C2E500D15B9A /* expandableImage@2x.png */,
+				23B7F34418BE13E4004A149F /* bar_left.png */,
+				23B7F34518BE13E4004A149F /* bar_middle.png */,
+				23B7F34618BE13E4004A149F /* bar_right.png */,
+			);
+			path = PNG;
+			sourceTree = "<group>";
+		};
 		23CA17C618A8FCF20036D8E3 /* FMDB */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,26 +283,6 @@
 				23CA17D118A8FCF20036D8E3 /* FMResultSet.m */,
 			);
 			path = FMDB;
-			sourceTree = "<group>";
-		};
-		23CA17E218A8FDEA0036D8E3 /* UMLElement */ = {
-			isa = PBXGroup;
-			children = (
-				23CA17DE18A8FDE60036D8E3 /* HWUMLElement.h */,
-				23CA17DF18A8FDE60036D8E3 /* HWUMLElement.m */,
-			);
-			name = UMLElement;
-			sourceTree = "<group>";
-		};
-		23CA17E318A8FF620036D8E3 /* SKSTableView */ = {
-			isa = PBXGroup;
-			children = (
-				23CA17E418A8FF620036D8E3 /* expandableImage.png */,
-				23CA17E518A8FF620036D8E3 /* expandableImage@2x.png */,
-				23CA17F618A907A30036D8E3 /* HWExpandHeaderView.h */,
-				23CA17F718A907A30036D8E3 /* HWExpandHeaderView.m */,
-			);
-			path = SKSTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,13 +365,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23CA17EC18A8FF620036D8E3 /* expandableImage.png in Resources */,
-				23CA17FE18A90E970036D8E3 /* expandableImage.png in Resources */,
-				23CA180018A90E970036D8E3 /* expandableImage@2x.png in Resources */,
 				2384C68B18A78BBB00A89B6F /* Main_iPad.storyboard in Resources */,
-				23CA17EE18A8FF620036D8E3 /* expandableImage@2x.png in Resources */,
 				2384C69018A78BBB00A89B6F /* Images.xcassets in Resources */,
+				23B7F34818BE13E4004A149F /* bar_middle.png in Resources */,
 				2384C68818A78BBB00A89B6F /* Main_iPhone.storyboard in Resources */,
+				23B7F34918BE13E4004A149F /* bar_right.png in Resources */,
+				23AEF38218C8C2E500D15B9A /* expandableImage@2x.png in Resources */,
+				23AEF38118C8C2E500D15B9A /* expandableImage.png in Resources */,
+				23B7F34718BE13E4004A149F /* bar_left.png in Resources */,
 				2384C67F18A78BBB00A89B6F /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,10 +382,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2384C6A118A78BBB00A89B6F /* InfoPlist.strings in Resources */,
-				23CA180118A90E970036D8E3 /* expandableImage@2x.png in Resources */,
-				23CA17FF18A90E970036D8E3 /* expandableImage.png in Resources */,
-				23CA17ED18A8FF620036D8E3 /* expandableImage.png in Resources */,
-				23CA17EF18A8FF620036D8E3 /* expandableImage@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,19 +393,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				23CA17C318A8FBB00036D8E3 /* HWUMLListView.m in Sources */,
+				23AEF38518C8C40200D15B9A /* UMLObject.m in Sources */,
 				2384C68E18A78BBB00A89B6F /* HWViewController.m in Sources */,
 				23CA180218A90E970036D8E3 /* HWExpandHeaderView.m in Sources */,
-				23CA17F818A907A30036D8E3 /* HWExpandHeaderView.m in Sources */,
 				2384C68118A78BBB00A89B6F /* main.m in Sources */,
 				23CA17D218A8FCF20036D8E3 /* FMDatabase.m in Sources */,
-				23CA17E018A8FDE60036D8E3 /* HWUMLElement.m in Sources */,
+				23AEF37E18C8B33900D15B9A /* HWObjcTableViewController.m in Sources */,
 				23CA17D618A8FCF20036D8E3 /* FMDatabasePool.m in Sources */,
 				23CA17D818A8FCF20036D8E3 /* FMDatabaseQueue.m in Sources */,
 				23CA17DC18A8FCF20036D8E3 /* FMResultSet.m in Sources */,
+				23AEF38C18C8C6B100D15B9A /* UMLBox.m in Sources */,
 				2384C68518A78BBB00A89B6F /* HWAppDelegate.m in Sources */,
 				2332070318A7A40000ACED75 /* HWToolListView.m in Sources */,
 				23CA17C018A8FA8A0036D8E3 /* HWActionToolView.m in Sources */,
 				23CA17D418A8FCF20036D8E3 /* FMDatabaseAdditions.m in Sources */,
+				23AEF38918C8C69E00D15B9A /* UMLLine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,11 +416,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				23CA17D318A8FCF20036D8E3 /* FMDatabase.m in Sources */,
-				23CA17E118A8FDE60036D8E3 /* HWUMLElement.m in Sources */,
 				2384C6A318A78BBB00A89B6F /* HalloUMLTests.m in Sources */,
 				23CA17DB18A8FCF20036D8E3 /* fmdb.m in Sources */,
 				23CA180318A90E970036D8E3 /* HWExpandHeaderView.m in Sources */,
-				23CA17F918A907A30036D8E3 /* HWExpandHeaderView.m in Sources */,
 				23CA17D718A8FCF20036D8E3 /* FMDatabasePool.m in Sources */,
 				2332070418A7A40000ACED75 /* HWToolListView.m in Sources */,
 				23CA17D518A8FCF20036D8E3 /* FMDatabaseAdditions.m in Sources */,
